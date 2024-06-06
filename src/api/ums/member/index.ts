@@ -11,7 +11,7 @@ export function getMemberPage(
   queryParams: MemberQuery
 ): AxiosPromise<MemberPageResult> {
   return request({
-    url: "/mall-ums/api/v1/members",
+    url: "/mall-ums/api/v1/members/page",
     method: "get",
     params: queryParams,
   });
